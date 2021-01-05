@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu"),
+    url(https://www.fonts-online.ru/font/Ubuntu) format("woff");
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #FFFFFF;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    /* font-family: Ubuntu, Helvetica, serif; */
+    line-height: 1.55;
+    font-size: 100%;
+}
+
+article {
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: Ubuntu, Helvetica, serif;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
